@@ -1,5 +1,5 @@
 /* * Globales * */
-
+  
 html {
     box-sizing: border-box;
     font-size: 62.5%;
@@ -42,7 +42,7 @@ h4 {
 }
 .contenedor-header {
     width: 95%;
-    max-width: 100rem;
+    max-width: 120rem;
     margin: 0 auto;
 }
 /** Utilidades**/
@@ -153,11 +153,11 @@ h4 {
     color: white;
 }
 .site-header {
-    background-color: #333333;
+    background-color: #007700;
     padding: 0;
 }
 .site-header.inicio {
-    background-color: #007700;
+    background-color: #333;
     background-position: center center;
     background-size: cover;
 }
@@ -187,10 +187,19 @@ h4 {
 }
 
 .barra {
-    padding: 0.5rem 0rem;
+    padding: 0.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: .2em;
 }
 .barra img {
     padding: 0;
+}
+.barra a{
+    text-decoration: none;
+    color: white;
+    font-size: 2.3em;
+    margin-right: .6em;
 }
 .back-icono {
     background-color: white;
@@ -207,24 +216,39 @@ h4 {
         justify-content: space-between;
         align-items: center;
     }
+    .barra nav
+    {
+        margin-right: .5em;
+        margin-top: .5em;
+    }
+    .barra a
+    {
+        margin-right: .6em;
+    }
 }
 /* Navegación */
 
 .navegacion a {
+    display: block;
     color: white;
     text-decoration: none;
-    font-size: 2.2rem;
+    font-size: 1.6rem;
     margin-right: 2rem;
-    display: block;
 }
 @media (min-width: 768px) {
     .navegacion a {
         display: inline-block;
         margin-right: 2rem;
         font-size: 1.8rem;
+        padding-bottom: .5em;
     }
     .navegacion a:last-of-type {
         margin: 0;
+    }
+    body header div div nav.flex.space-around.navegacion > a:nth-child(2):before
+    {
+        content: '|';
+        margin-right: 1em;
     }
 }
 
@@ -567,6 +591,7 @@ ul.slider li:target {
 .menu li {
     display: inline-block;
     text-align: center;
+
 }
 
 .menu li a {
@@ -574,7 +599,7 @@ ul.slider li:target {
     color: white;
     text-decoration: none;
     background-color: #333333;
-    padding: 1rem;
+    padding-top:.7rem ;
     width: 3rem;
     height: 3rem;
     font-size: 1.6rem;
