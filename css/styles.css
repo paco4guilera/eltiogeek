@@ -1,5 +1,5 @@
 /* * Globales * */
-  
+
 html {
     box-sizing: border-box;
     font-size: 62.5%;
@@ -190,16 +190,16 @@ h4 {
     padding: 0.5rem 2rem;
     display: flex;
     justify-content: space-between;
-    margin-top: .2em;
+    margin-top: 0.2em;
 }
 .barra img {
     padding: 0;
 }
-.barra a{
+.barra a {
     text-decoration: none;
     color: white;
     font-size: 2.3em;
-    margin-right: .6em;
+    margin-right: 0.6em;
 }
 .back-icono {
     background-color: white;
@@ -216,14 +216,12 @@ h4 {
         justify-content: space-between;
         align-items: center;
     }
-    .barra nav
-    {
-        margin-right: .5em;
-        margin-top: .5em;
+    .barra nav {
+        margin-right: 0.5em;
+        margin-top: 0.5em;
     }
-    .barra a
-    {
-        margin-right: .6em;
+    .barra a {
+        margin-right: 0.6em;
     }
 }
 /* Navegación */
@@ -240,14 +238,18 @@ h4 {
         display: inline-block;
         margin-right: 2rem;
         font-size: 1.8rem;
-        padding-bottom: .5em;
+        padding-bottom: 0.5em;
     }
     .navegacion a:last-of-type {
         margin: 0;
     }
-    body header div div nav.flex.space-around.navegacion > a:nth-child(2):before
-    {
-        content: '|';
+    body
+        header
+        div
+        div
+        nav.flex.space-around.navegacion
+        > a:nth-child(2):before {
+        content: "|";
         margin-right: 1em;
     }
 }
@@ -591,7 +593,6 @@ ul.slider li:target {
 .menu li {
     display: inline-block;
     text-align: center;
-
 }
 
 .menu li a {
@@ -599,7 +600,7 @@ ul.slider li:target {
     color: white;
     text-decoration: none;
     background-color: #333333;
-    padding-top:.7rem ;
+    padding-top: 0.7rem;
     width: 3rem;
     height: 3rem;
     font-size: 1.6rem;
@@ -609,10 +610,10 @@ ul.slider li:target {
     color: #71b100;
 }
 .menu-categorias {
-    justify-content: space-around;
+    display: flex;
+    justify-content: space-between;
 }
 .menu-categorias li {
-    display: inline-block;
     text-align: center;
 }
 .menu-categorias li a {
