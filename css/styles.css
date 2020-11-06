@@ -583,3 +583,21 @@ ul.slider li:target {
 .menu li a:hover {
     color: #71b100;
 }
+.menu-categorias {
+    justify-content: space-around;
+}
+.menu-categorias li {
+    display: inline-block;
+    text-align: center;
+}
+.menu-categorias li a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color: #333333;
+    padding: 1rem;
+    width: 15rem;
+    height: 15rem;
+    font-size: 1.6rem;
+    border-radius: 10%;
+}
