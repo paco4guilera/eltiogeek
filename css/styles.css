@@ -81,7 +81,7 @@ h4 {
     justify-content: center;
     margin: auto;
 }
-.contenedor-tarjeta .card {
+.card {
     width: 33rem;
     background-color: #f5f5f5;
     height: auto;
@@ -96,22 +96,25 @@ h4 {
     transform: translateY(-1.5rem);
     box-shadow: 0 1.2rem 1.6rem rgba(0, 0, 0, 0.2);
 }
-.contenedor-tarjeta .card a {
-    font-weight: 500;
+.contenedor-tarjeta a {
     text-decoration: none;
-    font-size: 1.8rem;
-    color: #3498db;
 }
 
 .contenedor-tarjeta .card img {
     width: 18.4rem;
     height: 22rem;
 }
-.contenedor-tarjeta .card p {
+.tarjeta-desc {
     padding: 0 1rem;
     font-size: 1.6rem;
     font-weight: 300;
     color: #505050;
+}
+.tarjeta-ver-producto {
+    color: #3498db;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 1.8rem;
 }
 .contenedor-tarjeta .card h4 {
     color: #888888;
