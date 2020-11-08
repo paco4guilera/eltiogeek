@@ -764,6 +764,13 @@ body section:nth-child(4) div p {
     opacity: 1;
     transform: scale(1);
 }
+.icon-phone:before {
+  content: "\e907";
+}
+/* .nombre-contacto
+{
+    background-image: ;
+} */
 
 input[id="1"]:checked ~ .slide {
     animation: none;
@@ -891,4 +898,8 @@ input[id="3"]:checked ~ .pagination .pagination-item[for="3"] {
     .contenedor-imagenes .imagen {
         width: 80%;
     }
+}
+body > main > div > div.imagen > img
+{
+    height: initial;
 }
