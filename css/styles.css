@@ -943,8 +943,12 @@ body > main > div > div.imagen > img {
     {
         align-items: center;
     }
-    .barra nav {
-        margin-bottom: 0.5em;
-        margin-top: 0.5em;
+}
+@media (max-width: 480px)
+{
+    .barra
+    {
+        padding-right: 0;
+        padding-left: .5rem;
     }
 }
