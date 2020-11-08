@@ -538,6 +538,7 @@ select {
 input[type="radio"] {
     width: auto;
     margin: 0;
+    display: none;
 }
 select {
     -webkit-appearance: none;
