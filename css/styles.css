@@ -445,8 +445,7 @@ h4 {
     color: #d3d3d3;
     line-height: 2rem;
 }
-.contenedor-footer span
-{
+.contenedor-footer span {
     color: #fff;
 }
 @media (min-width: 768px) {
@@ -653,10 +652,10 @@ textarea {
     /* margin: auto; */
     /* top: 50rem; */
 }
-.imagen {
+/* .imagen {
     grid-column-start: 1;
     margin-top: 5rem;
-}
+} */
 /* Galería-------------------------------------------------- */
 /* NOSOTROS */
 body section:nth-child(4) div p {
@@ -674,8 +673,7 @@ body section:nth-child(4) div p {
     font-size: 1.7rem;
     line-height: 2.5rem;
 }
-.porque-nosotros ul
-{
+.porque-nosotros ul {
     margin-top: 0;
 }
 .porque-nosotros img {
@@ -691,8 +689,7 @@ body section:nth-child(4) div p {
     border-radius: 0rem;
     overflow: hidden;
 }
-.separador-footer
-{
+.separador-footer {
     font-size: 8rem;
     margin: 4rem 0 0 0;
     font-weight: 200;
@@ -840,11 +837,14 @@ input[id="3"]:checked ~ .pagination .pagination-item[for="3"] {
     position: absolute;
     bottom: 0;
     left: 0;
-    background: rgba(0, 118, 192, 0.781);
+    background: rgba(0, 119, 0, 0.781);
     width: 100%;
     height: 0;
     overflow: hidden;
     transition: 0.5s ease;
+}
+.overlay span {
+    color: white;
 }
 
 .overlay h2 {
@@ -879,9 +879,6 @@ input[id="3"]:checked ~ .pagination .pagination-item[for="3"] {
 }
 
 @media screen and (max-width: 450px) {
-    h1 {
-        font-size: 22px;
-    }
     .contenedor-imagenes {
         width: 98%;
     }
