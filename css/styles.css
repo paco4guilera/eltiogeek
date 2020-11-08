@@ -271,9 +271,14 @@ h4 {
 }
 
 .navegacion a:hover {
-    color: #3498db;
+    /* color: #3498db; */
+    text-decoration: underline;
 }
-
+.barra.contenedor-header a:hover 
+{
+    color: #009e00;
+    text-decoration: none;
+}
 .pie {
     background-color: rgba(0, 0, 0, 0.705);
 }
@@ -564,6 +569,7 @@ select {
 }
 textarea {
     height: 20rem;
+    resize: none;
 }
 
 .menu {
@@ -694,7 +700,7 @@ body section:nth-child(4) div p {
 .separador-footer
 {
     font-size: 8rem;
-    margin: 4rem 0 0 0;
+    margin: 4.2rem 0 0 0;
     font-weight: 200;
 }
 .slide {
