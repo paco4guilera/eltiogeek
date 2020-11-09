@@ -937,7 +937,7 @@ body > main > div > div.imagen > img {
     }
     .navegacion a 
     {
-        font-size: 1.4rem;
+        font-size: 1.6rem;
     }
     .barra.contenedor-header 
     {
@@ -946,9 +946,17 @@ body > main > div > div.imagen > img {
 }
 @media (max-width: 480px)
 {
+    .flex.space-around.navegacion a:nth-child(2)
+    {
+        margin-right: .5rem;
+    }
     .barra
     {
         padding-right: 0;
         padding-left: .5rem;
+    }
+    .barra.contenedor-header a:nth-child(3)
+    {
+        margin-right: .5rem;
     }
 }
