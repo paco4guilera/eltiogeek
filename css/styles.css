@@ -158,10 +158,6 @@ h4 {
     color: white;
 }
 .site-header {
-    /* position: fixed;
-    top: 0px;
-    left: 0px;
-    right: 0px; */
     padding: 0;
     margin: 0;
     background-color: #007700;
@@ -185,11 +181,6 @@ h4 {
     flex-direction: column;
     justify-content: space-between;
     text-align: center;
-}
-@media (min-width: 768px) {
-    .contenido-header {
-        text-align: left;
-    }
 }
 
 /* .contenido-header h1 {
@@ -226,20 +217,6 @@ h4 {
     margin-right: 0.6em;
 }
 
-@media (min-width: 768px) {
-    .barra {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    .barra nav {
-        margin-right: 0.5em;
-        margin-top: 0.5em;
-    }
-    .barra a {
-        margin-right: 0.6em;
-    }
-}
 /* Navegación */
 
 .navegacion a {
@@ -249,72 +226,16 @@ h4 {
     font-size: 1.6rem;
     margin-right: 2rem;
 }
-@media (min-width: 768px) {
-    .navegacion a {
-        display: inline-block;
-        margin-right: 2rem;
-        font-size: 1.8rem;
-        padding-bottom: 0.5em;
-    }
-    .navegacion a:last-of-type {
-        margin: 0;
-    }
-    body
-        header
-        div
-        div
-        nav.flex.space-around.navegacion
-        > a:nth-child(2):before {
-        content: "|";
-        margin-right: 1em;
-    }
-}
 
 .navegacion a:hover {
     /* color: #3498db; */
     text-decoration: underline;
 }
-.barra.contenedor-header a:hover 
-{
+.barra.contenedor-header a:hover {
     color: #009e00;
     text-decoration: none;
 }
-.pie {
-    background-color: rgba(0, 0, 0, 0.705);
-}
-/**anuncios**/
-@media (min-width: 768px) {
-    .contenedor-anuncios {
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-    }
-}
 
-.anuncio {
-    /*flex: 0 0 calc((100% / 3) - 1rem)*/
-    flex-grow: 0;
-    flex-shrink: 0;
-    border-style: solid;
-    border-color: #b5b5b5;
-    border-width: 1px;
-    /*border 1px solid B5B5B5*/
-    background-color: #f5f5f5;
-    margin-bottom: 2rem;
-}
-@media (min-width: 768px) {
-    .anuncio {
-        flex-basis: calc((100% / 3) - 1rem);
-    }
-}
-.contenido-anuncio {
-    padding: 2rem;
-}
-
-.contenido-anuncio h3,
-.contenido-anuncio p {
-    margin: 0;
-}
 .precio {
     color: #71b100;
     font-weight: 900;
@@ -335,106 +256,14 @@ h4 {
     margin-right: 2rem;
 }
 
-/*Iconos*/
-@media (min-width: 768px) {
-    .iconos-nosotros {
-        display: flex;
-        justify-content: space-between;
-    }
-}
-
 .icono {
     text-align: center;
 }
-/* @media (min-width: 768px) {
-    flex-basis: calc((100% / 3) - 1rem);
-} */
+
 .icono h3 {
     text-transform: uppercase;
 }
 
-/*contacto*/
-.imagen-contacto {
-    background-image: url(../img/encuentra.jpg);
-    height: 40rem;
-    background-size: cover;
-    background-position: center center;
-    display: flex;
-    align-items: center;
-}
-.contenido-contacto {
-    flex: 0 0 95%;
-    color: white;
-}
-.contenido-contacto p {
-    font-size: 1.8rem;
-}
-/* Seccion inferior */
-@media (min-width: 768px) {
-    .seccion-inferior {
-        display: flex;
-        justify-content: space-between;
-    }
-    .seccion-inferior .blog {
-        flex-basis: 60%;
-    }
-    .seccion-inferior .testimoniales {
-        flex-basis: calc((40%) - 2rem);
-    }
-}
-
-.entrada-blog {
-    margin-bottom: 2rem;
-}
-@media (min-width: 768px) {
-    .entrada-blog {
-        display: flex;
-        justify-content: space-between;
-    }
-}
-.entrada-blog:last-of-type {
-    margin-bottom: 0;
-}
-
-@media (min-width: 768px) {
-    .entrada-blog .imagen {
-        flex-basis: 40%;
-    }
-    .entrada-blog .texto-entrada {
-        flex-basis: calc((60%) - 3rem);
-    }
-}
-.texto-entrada h4 {
-    margin: 0;
-    line-height: 1.4;
-}
-.texto-entrada h4::after {
-    content: "";
-    display: block;
-    width: 15rem;
-    height: 0.5rem;
-    background-color: #007700;
-    margin-top: 1rem;
-}
-.texto-entrada a {
-    color: black;
-    text-decoration: none;
-}
-.texto-entrada span {
-    color: #007700;
-}
-
-/*testimoniales*/
-.testimonial {
-    background-color: #71b100;
-    font-size: 2.4rem;
-    padding: 2rem;
-    color: white;
-    border-radius: 2rem;
-}
-.testimonial p {
-    text-align: right;
-}
 /*footer*/
 .site-footer {
     background-color: #333333;
@@ -453,49 +282,6 @@ h4 {
 .contenedor-footer span {
     color: #fff;
 }
-@media (min-width: 768px) {
-    .contenedor-footer {
-        display: flex;
-        justify-content: space-between;
-    }
-}
-/* .site-footer nav {
-    display: none;
-}
-@media (min-width: 768px) {
-    .site-footer nav {
-        display: block;
-    }
-}
- */
-
-.main-nosotros {
-    display: flex;
-}
-.main-nosotros .imagen-nosotros {
-    flex-basis: 50%;
-}
-.main-nosotros .texto-nosotros {
-    flex-basis: calc((50%) - 1rem);
-    padding: 2rem;
-}
-/**internas**/
-/**Nosotros**/
-
-@media (min-width: 768px) {
-    .contenido-nosotros {
-        display: grid;
-        grid-template-columns: 48% 48%;
-        grid-column-gap: 2rem;
-    }
-}
-@media (min-width: 768px) {
-    .contenido-post {
-        display: grid;
-        grid-template-columns: 28% 48%;
-        grid-column-gap: 2rem;
-    }
-}
 
 .texto-nosotros blockquote {
     font-weight: 900;
@@ -503,18 +289,7 @@ h4 {
     margin: 0;
     padding: 1rem 0 3rem 0;
 }
-@media (min-width: 768px) {
-    .imagen-post {
-        text-align: center;
-        padding-top: 5rem;
-    }
-}
-/**Anuncio*/
-.resumen-propiedad {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+
 /* Contacto */
 label {
     display: block;
@@ -536,16 +311,7 @@ form p {
     justify-content: space-between;
     align-items: center;
 }
-/*input[type="text"],
-input[type="email"] {
-    padding: 1rem;
-    display: block;
-    width: 100%;
-    background-color: #e1e1e1;
-    margin-bottom: 2rem;
-    border: none;
-    border-radius: 1rem;
-}*/
+
 input:not([type="submit"]),
 textarea,
 select {
@@ -655,13 +421,8 @@ textarea {
     margin-top: 1rem;
     min-width: 100px;
     max-width: 4rem;
-    /* margin: auto; */
-    /* top: 50rem; */
 }
-/* .imagen {
-    grid-column-start: 1;
-    margin-top: 5rem;
-} */
+
 /* Galería-------------------------------------------------- */
 /* NOSOTROS */
 body section:nth-child(4) div p {
